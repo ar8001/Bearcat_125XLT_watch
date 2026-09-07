@@ -2,7 +2,9 @@ this is a smal python script for the bearcat 125XLT
 it search a connected 125XLT and show all the frequency acivity in a terminal 
 
 sudo apt install python3-serial
-sudo usermod -aG dialout $USER   # einmal, danach neu einloggen
+
+sudo usermod -aG dialout $USER   
+
 python3 ubc125xlt_closecall.py
 
 
